@@ -1,5 +1,13 @@
-const Button: React.FC = () => {
-  return <div>Button</div>;
+type ButtonProps = {
+  name: string;
+};
+
+const Button: React.FC<ButtonProps> = ({ name }) => {
+  return (
+    <div>
+      <button>{name}</button>
+    </div>
+  );
 };
 
 export default Button;
