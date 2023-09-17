@@ -12,7 +12,7 @@ const App = () => {
         <CartItem />
         <Counter />
         <Price />
-        <Button />
+        <Button name='Checkout' />
       </div>
     </div>
   );
