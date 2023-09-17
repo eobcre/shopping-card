@@ -6,8 +6,8 @@ import Button from './components/Button';
 
 const App = () => {
   return (
-    <div>
-      <div>
+    <div className='container'>
+      <div className='inner-container'>
         <Title />
         <CartItem />
         <Counter />
