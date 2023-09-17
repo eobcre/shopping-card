@@ -3,3 +3,28 @@
   padding: 0;
   border-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+  height: 100vh;
+}
+
+.inner-container {
+  background-color: #ffffff;
+  border-radius: 2rem;
+  padding: 50px;
+  width: 280px;
+  height: 340px;
+}
+
+/* styles for CartItem */
+.item-container {
+  display: flex;
+}
+
+.item-name {
+  width: 280px;
+}
