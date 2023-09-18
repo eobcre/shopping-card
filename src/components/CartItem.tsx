@@ -11,7 +11,7 @@ const CartItem: React.FC = () => {
           <p className='item-name'>
             Ecovacs Deebot OZMO N8 + robot vacuum cleaner W125978483
           </p>
-          <span>In stock</span>
+          <span className='item-stock'>In stock</span>
           <Counter />
         </div>
       </div>
