@@ -1,6 +1,6 @@
 const Title: React.FC = () => {
   return (
-    <div>
+    <div className='title-container'>
       <h3>Your shopping cart</h3>
       <p>ID: 548856</p>
     </div>
