@@ -8,12 +8,14 @@ const App = () => {
   return (
     <div className='container'>
       <div className='inner-container'>
-        <Title />
-        <CartItem />
-        <Counter />
-        <Price />
-        <hr />
-        <Button name='Checkout' />
+        <div className='inner-inner-container'>
+          <Title />
+          <CartItem />
+          <Counter />
+          <hr />
+          <Price />
+          <Button name='Checkout' />
+        </div>
       </div>
     </div>
   );
