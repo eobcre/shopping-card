@@ -1,3 +1,5 @@
+import Counter from '../components/Counter';
+
 import Image from '../assets/item.png';
 
 const CartItem: React.FC = () => {
@@ -10,6 +12,7 @@ const CartItem: React.FC = () => {
             Ecovacs Deebot OZMO N8 + robot vacuum cleaner W125978483
           </p>
           <span>In stock</span>
+          <Counter />
         </div>
       </div>
     </div>
