@@ -4,7 +4,7 @@ type ButtonProps = {
 
 const Button: React.FC<ButtonProps> = ({ name }) => {
   return (
-    <div>
+    <div className='button-container'>
       <button>{name}</button>
     </div>
   );
