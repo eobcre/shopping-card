@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import { Icon } from '@iconify/react';
+
 const Counter: React.FC = () => {
   const [count, setCount] = useState(0);
 
@@ -12,10 +14,14 @@ const Counter: React.FC = () => {
   };
 
   return (
-    <div>
-      <button onClick={handleClickMinus}>-</button>
-      <p>{count}</p>
-      <button onClick={handleClickPlus}>+</button>
+    <div className='counter-container'>
+      <button onClick={handleClickMinus}>
+        <Icon icon='majesticons:minus-line' fontSize={20} />
+      </button>
+      <p className='counter-value'>{count}</p>
+      <button onClick={handleClickPlus}>
+        <Icon icon='octicon:plus-16' fontSize={20} />
+      </button>
     </div>
   );
 };
