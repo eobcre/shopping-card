@@ -1,11 +1,11 @@
 const Price: React.FC = () => {
   return (
-    <div>
-      <div>
-        <p>Starndard Package</p>
+    <div className='price-container'>
+      <div className='price-container-1'>
+        <p>Standard Package</p>
         <p>Free</p>
       </div>
-      <div>
+      <div className='price-container-2'>
         <p>Total USD</p>
         <p>$399.99</p>
       </div>
