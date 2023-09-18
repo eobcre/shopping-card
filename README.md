@@ -16,4 +16,4 @@ This is the daily challenge I participate in on [WebDevDaily](https://www.webdev
 
 ### What I Created<br><br>
 
-<img width="358" alt="Screen Shot 2023-09-18 at 2 43 25 PM" src="https://github.com/eobcre/shopping-card/assets/88697509/b19050e4-9371-4a13-853d-52089129a804">
+<img width="358" alt="Screen Shot 2023-09-18 at 2 48 47 PM" src="https://github.com/eobcre/shopping-card/assets/88697509/0a286904-d151-41b6-ae7a-298dcc05515c">
