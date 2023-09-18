@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   border-sizing: border-box;
+  font-family: 'Exo', sans-serif;
 }
 
 .container {
@@ -15,12 +18,12 @@
 .inner-container {
   background-color: #ffffff;
   border-radius: 2rem;
-  width: 380px;
-  height: 440px;
+  width: 400px;
+  height: 470px;
 }
 
 .inner-inner-container {
-  padding: 50px 40px;
+  padding: 40px;
 }
 
 /* styles for Title */
@@ -30,10 +33,11 @@
 }
 
 /* styles for CartItem */
-.item-container span {
+.item-container .item-stock {
   background-color: #82be47;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: bold;
   text-align: center;
   border-radius: 16px;
   margin: 10px 0;
@@ -48,8 +52,9 @@
 }
 
 .item-name {
-  font-size: 14px;
-  width: 210px;
+  font-size: 13px;
+  font-weight: bold;
+  width: 230px;
 }
 
 .item-details {
@@ -86,4 +91,34 @@
   padding: 6px;
   width: 20px;
   height: 20px;
+}
+
+/* styles for Price */
+.price-container {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.price-container-1,
+.price-container-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.price-container-1 p:nth-child(2) {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* styles for Button */
+.button-container button {
+  background-color: #4379ff;
+  color: white;
+  font-size: 13px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 14px 0;
+  width: 100%;
 }
