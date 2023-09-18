@@ -56,3 +56,34 @@
   display: flex;
   flex-direction: column;
 }
+
+/* styles for Counter */
+.counter-container {
+  display: flex;
+  margin: 18px 0;
+}
+
+.counter-container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2f3f9;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+}
+
+.counter-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border: 1px solid #e5e7e9;
+  border-radius: 6px;
+  margin-inline: 7px;
+  padding: 6px;
+  width: 20px;
+  height: 20px;
+}
