@@ -15,16 +15,44 @@
 .inner-container {
   background-color: #ffffff;
   border-radius: 2rem;
-  padding: 50px;
-  width: 280px;
-  height: 340px;
+  width: 380px;
+  height: 440px;
+}
+
+.inner-inner-container {
+  padding: 50px 40px;
+}
+
+/* styles for Title */
+.title-container > p {
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 /* styles for CartItem */
-.item-container {
+.item-container span {
+  background-color: #82be47;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 16px;
+  margin: 10px 0;
+  padding: 5px 0;
+  width: 80px;
+}
+
+.item-inner-container {
   display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
 }
 
 .item-name {
-  width: 280px;
+  font-size: 14px;
+  width: 210px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
 }
